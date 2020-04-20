@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+</head>
+
+<body>
+    <header>
+        <h1>Formularios</h1>
+    </header>
+
+    <form action="/login" method="GET">
+        <h2>Uso de GET</h2>
+        <input type="text" placeholder="Tu nombre" name="nombre" />
+        <button type="submit">Enviar</button>
+    </form>
+
+    <form action="/login" method="POST">
+        <h2>Uso de POST</h2>
+        <input type="email" placeholder="Tu email" name="email" />
+        <button type="submit">Enviar</button>
+    </form>
+
+</body>
+
+</html>
